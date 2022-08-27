@@ -1,0 +1,62 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Align homepage buttons w/ hyperlinks*/
+.homepageButton{
+    width: 500px;
+    height: 200px;
+    margin: 50px;
+   display: inline-table;
+}
+
+/*Style buttons*/
+.buttonStyle{
+    background-color:blanchedalmond;
+    color: cornflowerblue;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+/*Style a back button that brings user to homepage*/ 
+.backButton{
+    background-color:white;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    border: 2px solid white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+
+    width: 150px;
+    height: 50px;
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+}
