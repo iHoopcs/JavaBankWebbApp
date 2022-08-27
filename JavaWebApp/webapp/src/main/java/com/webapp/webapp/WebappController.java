@@ -18,23 +18,35 @@ public class WebappController {
 
     @GetMapping("/AccountBalance")
     public String getAccountBalancePage(){
-        return "/Web App Functionality/AccountBalance.html";
+        return "/BankFunctionality/AccountBalance.html";
     }
 
     @GetMapping("/DepositFunds")
     public String getDepositFundsPage(){
-        return "/Web App Functionality/DepositFunds.html";
+        return "/BankFunctionality/DepositFunds.html";
     }
 
     @GetMapping("/WithdrawalFunds")
     public String getWithdrawalFundsPage(){
-        return "/Web App Functionality/WithdrawalFunds.html";
+        return "/BankFunctionality/WithdrawalFunds.html";
     }
 
     @GetMapping("/TransferFunds")
     public String getTransferFundsPage(){
-        return "/Web App Functionality/TransferFunds.html";
+        return "/BankFunctionality/TransferFunds.html";
     }
+
+    @GetMapping("/Login")
+    public String getLoginPage(){
+        return "/LoginSignup/Login.html";
+    }
+
+    @GetMapping("/Signup")
+    public String getSignupPage(){
+        return "/LoginSignup/Signup.html";
+    }
+
+
     
 
 

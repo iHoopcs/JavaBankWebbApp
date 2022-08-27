@@ -16,6 +16,14 @@ h2{
     font-family: 'Times New Roman', Times, serif;
 }
 
+h3{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 /*Align homepage buttons w/ hyperlinks*/
 .homepageButton{
     width: 500px;
@@ -24,7 +32,7 @@ h2{
    display: inline-table;
 }
 
-/*Style buttons*/
+/*Style buttons for HomePage and LoginSignup pages*/
 .buttonStyle{
     background-color:blanchedalmond;
     color: cornflowerblue;
@@ -54,9 +62,83 @@ h2{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 
+    /*Position button in bottom left*/
     width: 150px;
     height: 50px;
     position: fixed;
     bottom: 50px;
     left: 50px;
+}
+
+/*Style signup form container in Signup.html*/
+#signupFormContainer{
+    background-color:aliceblue;
+    color: black;
+    text-align: left;
+    padding-left: 10px;
+    
+    border: 2px solid white;
+    border-radius: 7px;
+    width: 400px;
+    height: 550px;
+    margin: auto;
+}
+
+/*Style submit button inside signup form container in Signup.html*/
+#submitButton{
+    background-color:white;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 7px;
+
+    /*Position button in bottom right of container*/
+    position: fixed;
+    bottom:90px;
+    right: 15cm;
+}
+
+/*Style Login form container*/
+#loginFormContainer{
+    background-color: white;
+    color: black;
+    text-align: center;
+
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 650px;
+    height: 180px;
+
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+
+    
+    position: fixed;
+    left: 450px;
+    
+}
+
+/*Style text inside login container*/ 
+.loginTextStyle{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 3px;
+
+    border-style: solid;
+    border-width: 3px;
+    display: inline-block;
+
+    margin-bottom: 40px;
+}
+
+/*Style link on Login Page*/
+#noAccountStyle{
+
+    /*Align under login container*/
+    position: fixed;
+    bottom: 10%;
+    right: 17.5cm;
 }
