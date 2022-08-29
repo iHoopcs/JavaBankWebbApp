@@ -11,22 +11,36 @@
 <body>
     <h1>Please enter the required information to setup your new account</h1>
 
+    <!--Code for Signup Form Container to prompt/retrieve user input from client side-->
     <div id="signupFormContainer">
-        <p>First Name: </p>
-        <p>Last Name: </p>
-        <p>Birthday: </p>
-        <p>Address: </p>
-        <p>Email: </p>
-        
+        <!--Possible include action and method attributes to form to save use input data-->
+        <form action="FormData.html" method="get" target="_blank">
+            <br>
+            <label for="fName">First Name:</label>
+            <input type="text" id="fName" name="fName" value=""><br>
+            <br>
+            <label for="lName">Last Name:</label>
+            <input type="text" id="lName" name="lName" value=""><br>
+            <br>
+            <label for="emailAdd">Email Address:</label>
+            <input type="text" id="emailAdd" name="emailAdd" value=""><br>
+            <br>
+            <label for="studentCheck">Student?</label>
+            <input type="checkbox" id="studentCheck" name="studentCheck" value=""><br>
+            <br>
+            <label for="accountUsername">Preferred Username:</label>
+            <input type="text" id="accountUsername" name="accountUsername" value=""><br>
+            <br>
+            <label for="accountPassword">Preferred Password:</label>
+            <input type="text" id="accountPassword" name="accountPassword" value="">
+            <br>
+            <input type="submit" value="Submit" >
+        </form>
 
-        <br>
         
-        <p>Preferred Username: </p>
-        <p>Preferred Password: </p>
-        
-
-
+        <!--        
         <button id="submitButton" onclick="displayAndDisappear()">submit</a></button><p id="submitButtonText"></p>
+        -->
     </div>
 </body>
 </html>

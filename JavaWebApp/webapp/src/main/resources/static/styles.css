@@ -22,8 +22,6 @@ h3{
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
 }
-
-
 /*Align homepage buttons w/ hyperlinks*/
 .homepageButton{
     width: 500px;
@@ -80,7 +78,7 @@ h3{
     border: 2px solid white;
     border-radius: 7px;
     width: 400px;
-    height: 550px;
+    height: 340px;
     margin: auto;
 }
 
@@ -95,8 +93,8 @@ h3{
 
     /*Position button in bottom right of container*/
     position: fixed;
-    bottom:90px;
-    right: 15cm;
+    bottom:300px;
+    right: 15.1cm;
 }
 
 /*Style Login form container*/

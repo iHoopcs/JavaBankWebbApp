@@ -12,8 +12,8 @@ public class WebappController {
     }
 
     @GetMapping("/Home")
-    public String getHomepage(){
-        return "Homepage.html";
+    public String getMainMenus(){
+        return "MainMenu.html";
     }
 
     @GetMapping("/AccountBalance")
@@ -46,6 +46,11 @@ public class WebappController {
         return "/LoginSignup/Signup.html";
     }
 
+    @GetMapping("/formData.html")
+    public String getSignupFormData(){
+        return "/LoginSignup/FormData.html";
+    }
+    
 
     
 
