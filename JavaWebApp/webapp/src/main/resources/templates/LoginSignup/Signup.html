@@ -14,7 +14,7 @@
     <!--Code for Signup Form Container to prompt/retrieve user input from client side-->
     <div id="signupFormContainer">
         <!--Possible include action and method attributes to form to save use input data-->
-        <form action="FormData.html" method="get" target="_blank">
+        <form onsubmit="fetchSignupFormData()">
             <br>
             <label for="fName">First Name:</label>
             <input type="text" id="fName" name="fName" value=""><br>
@@ -23,7 +23,7 @@
             <input type="text" id="lName" name="lName" value=""><br>
             <br>
             <label for="emailAdd">Email Address:</label>
-            <input type="text" id="emailAdd" name="emailAdd" value=""><br>
+            <input type="email" id="emailAdd" name="emailAdd" value=""><br>
             <br>
             <label for="studentCheck">Student?</label>
             <input type="checkbox" id="studentCheck" name="studentCheck" value=""><br>
@@ -34,7 +34,7 @@
             <label for="accountPassword">Preferred Password:</label>
             <input type="text" id="accountPassword" name="accountPassword" value="">
             <br>
-            <input type="submit" value="Submit" >
+            <button type="submit">submit</button>
         </form>
 
         

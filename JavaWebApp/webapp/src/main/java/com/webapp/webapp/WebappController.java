@@ -46,14 +46,5 @@ public class WebappController {
         return "/LoginSignup/Signup.html";
     }
 
-    @GetMapping("/formData.html")
-    public String getSignupFormData(){
-        return "/LoginSignup/FormData.html";
-    }
-    
 
-    
-
-
-    
 }
