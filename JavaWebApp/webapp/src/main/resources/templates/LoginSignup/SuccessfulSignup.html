@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Successful Signup</title>
+</head>
+<body>
+    <div align="center">
+        <h1>Registration Successful!</h1>
+        <span>First Name: </span><span th:text="${user.fName}"></span><br>
+        <br>
+        <span>Last Name: </span><span th:text="${user.lName}"></span><br>
+        <br>
+        <span>Username: </span><span th:text="${user.username}"></span><br>
+        <br>
+        <span>Password: </span><span th:text="${user.password}"></span><br>
+        <br>
+        <span>Gender: </span><span th:text="${user.gender}"></span><br>
+        <br>
+        <span>DateOfBirth:</span><span th:text="${user.dob}"></span>
+    </div>
+</body>
+</html>

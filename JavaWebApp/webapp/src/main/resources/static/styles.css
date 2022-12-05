@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(70, 86, 97);
 }
 
 h1{
@@ -31,7 +31,7 @@ h2{
     text-align: center;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid white;
+    border: 2px solid black;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -59,4 +59,25 @@ h2{
     position: fixed;
     bottom: 50px;
     left: 50px;
+}
+
+form, label{
+    font-size: larger;
+}
+
+.styleTransactionForm{
+    border: solid black 2px;
+    max-width: fit-content;
+    padding: 10px;
+    margin: auto;
+}
+
+#registrationForm{
+    border: solid black 2px;
+    border-radius:2px;
+    width: fit-content;
+    margin: auto;
+    padding: 20px;
+    line-height: 40px;
+    
 }
